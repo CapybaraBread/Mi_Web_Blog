@@ -1,0 +1,24 @@
+mixin topic-card(type, topic, image)
+  .main__card
+    .main__card-img
+      img.main__card-picture(src=image, alt='Картинка')
+      .main__card-type=type 
+      .main__card-topic=topic
+      .main__card-user
+        span.main__card-author Ariana Grande
+        span.main__card-date April 8 2018 before christ 
+        span.main__card-views one viev 
+      .main__card-description Cool photos of people. The best photos of 2024!
+main 
+  .main
+    +topic-card("Goth Style", "Чёрная одежда, реперский стиль. Лучшая одежда!", '../media/png/1.png')
+    +topic-card("Chill Style", "Одежда: Кактус и я - огромная семья!", '../media/png/2.png')
+    +topic-card("Clasic Style", "Отростила волосы и сильно пожелела...", '../media/png/3.png')
+    +topic-card("Bar Style", "Чувство, когда тебе обрезали лицо", '../media/png/4.png')
+    +topic-card("Dance style", "Взгляд девушки вырожает истинную боль...", '../media/png/5.png')
+    +topic-card("Techno style", "Осознание смысла бытья - то, что настигла девушку", '../media/png/6.png')
+    +topic-card("Cafe style", "Компания друзей пытаются взломать пинтагон", '../media/png/7.png')
+    +topic-card("Jesus style", "Сон типичного christian", '../media/png/8.png')
+    +topic-card("Blue style", "Тут даже лиц нет... Будующее которое мы заслужили", '../media/png/9.png')
+
+        

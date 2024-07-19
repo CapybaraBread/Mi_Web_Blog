@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "pug": "^3.0.3"
+  },
+  "name": "mi_web_blog",
+  "version": "1.0.0",
+  "description": "Это сайт на котром есть 9 красивых фотографий людей и их описание. Сайт поможет вам подобрать лук на день, и выбрать понравивишийся стилль!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
