@@ -3,6 +3,7 @@
     font-weight: 500;
     background-color: white;
     font-style: normal;
+    position: static;
 }
 .header__logo{
     width: 10rem;
